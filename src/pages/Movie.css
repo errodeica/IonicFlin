@@ -1,0 +1,36 @@
+.movie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  .movie-card {
+    width: 100%;
+  }
+  
+  .movie-image {
+    width: auto;
+    height: 0;
+    padding-top: 150%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .movie-card-header {
+    padding: 10px;
+  }
+  
+  .movie-card-subtitle {
+    font-size: 14px;
+  }
+  
+  .movie-card-title {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  .movie-card-content {
+    padding: 10px;
+  }
+  
